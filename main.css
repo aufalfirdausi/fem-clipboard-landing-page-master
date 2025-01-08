@@ -1,2 +1,191 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100vh;
+    font-family: 'Bai Jamjuree';
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url(bg-header-desktop.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cr {
+    padding-top: 40px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.small-title {
+    color: hsl(201, 11%, 66%);
+}
+
+.big-title {
+    color:hsl(210, 10%, 33%);
+}
+
+.small-desc {
+    color: hsl(201, 11%, 66%);
+}
+
+.big-desc {
+    color: hsl(210, 10%, 33%);
+}
+
+.paragh {
+    color: hsl(201, 11%, 66%);
+}
+
+.button button{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 30px;
+    color: white;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+.button .ios {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.button .mac {
+    background-color: hsl(233, 100%, 69%);
+}
+
+.desc {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.computer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10rem;
+}
+
+.computer img {
+    width: 40%;
+}
+
+.access {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.gadjet img{
+    width: 80%;
+    position: relative;/*kenapa pake position, karena pas di stel di tengah dia ga pas*/
+    left: 90px;
+}
+
+.supercharge {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sponsor-1 {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 20px;
+   text-align: center;
+   
+}
+
+.sponsor-1 p {
+    width: 330px;
+}
+
+.sponsor-1 p{
+    color: hsl(201, 11%, 66%);
+}
+
+.sponsor-1 h4 {
+    color: hsl(210, 10%, 33%);
+}
+
+.column h3{
+    color: hsl(210, 10%, 33%);
+}
+.sponsor-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    margin: 60px;
+}
+
+.clipboard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 100%;
+    height: 100px;
+    background-color: hsla(202, 11%, 66%, 0.201);
+    margin-top: 70px;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    gap: 50px;
+}
+
+.row {
+    padding: 10px;
+}
+
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    left: 200px;
+}
+
+.copy img {
+    width: 30%;
+}
+
+.copy {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
